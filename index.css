@@ -1,0 +1,79 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.stl_header {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0 10px;
+    background: #3881dd;
+    width: 100%;
+    color: #fff;
+    z-index: 1000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.stl_header img {
+    display: block;
+    float: left;
+    padding: 4px;
+}
+
+.stl_scrlApp {
+	color: #fff;
+    background-color: #3881dd;
+    height: 36px;
+    line-height: 36px;
+    margin: 50px 0 0 0;
+    padding: 0 10px;
+    border-top: 1px solid #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.stl_appDiv {
+    width: 100%;
+    padding: 0;
+}
+
+.stl_scrlDetail {
+    color: #fff;
+    background-color: #3881dd;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.stl_DivDetail {
+    width: 100%;
+    padding: 0;
+}
+.stl_table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.stl_table td{
+    min-height: 36px;
+    line-height: 36px;
+    border: 1px solid #e4e4e4;
+}
+.table_title{
+    width: 120px;
+    text-align: right;
+    font-size: 14px;
+    background: #eee;
+    margin-right: 10px;
+}
+.table_intro{
+    padding: 0  15px;
+    font-size: 14px;
+}
